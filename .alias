@@ -1,0 +1,22 @@
+alias grep='grep --color=always'
+alias cp="cp -i" #always ask
+alias rm='rm -i' #always ask
+alias mv='mv -i' #always ask
+alias mclear='clear;clear;clear'
+#alias lock='gnome-screensaver-command -l'
+#alias temp='cat /sys/class/thermal/thermal_zone0/temp'
+#alias cpuspeed='cat /proc/cpuinfo | grep "cpu MHz"'
+alias sftpkth='sftp andrejos@u-shell.csc.kth.se'
+alias sshkth='ssh andrejos@u-shell.csc.kth.se'
+alias sftps='sftp andre@10.10.10.10'
+alias sshs='ssh andre@10.10.10.10'
+alias dbtaskr='sudo -u postgres psql taskr'
+alias database='sudo -u postgres psql'
+alias pdcticket='kinit -f -l 7d andrejos@NADA.KTH.SE'
+alias sshpdc='ssh andrejos@tegner.pdc.kth.se'
+alias android='bash /usr/local/android-studio/bin/studio.sh & disown & exit'
+alias countfiles='du -a | cut -d/ -f2 | sort | uniq -c | sort -nr'
+alias listfiles='find . -type f -iname "*"'
+alias reconfig='source ~/.alias'
+alias config='nano ~/.alias'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
