@@ -16,3 +16,5 @@
 	ldiff = diff HEAD@{1} HEAD
 [color]
 	ui = true
+[push]
+	default = matching
